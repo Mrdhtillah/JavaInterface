@@ -4,13 +4,13 @@ package interfaceabstract;
 public class InterfaceAbs {
 
     public static void main(String[] args) {
-        Account acc1 = new Account("Mardha Ananti", "54321", 1000);
+        Account acc1 = new Account("Lendy Elhadi", "12345", 1000);
 
         acc1.deposit(1000);
         acc1.deposit(1000);
         acc1.print();
 
-        CreditAcc acc2 = new CreditAcc("Erry Novianti", "09876", 1000);
+        CreditAcc acc2 = new CreditAcc("Norman Normandy", "54545", 1000);
 
         acc2.print();
 
